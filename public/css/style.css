@@ -1,0 +1,430 @@
+/* fonts */
+@font-face {
+    font-family: "BahijSans";
+    src: url("../font/BahijTheSansArabic-Light.woff") format("woff");
+    font-weight: light;
+
+}
+
+@font-face {
+    font-family: "BahijSans";
+    src: url("../font/BahijTheSansArabic-ExtraLight.woff") format("woff");
+    font-weight: extralight;
+
+}
+
+@font-face {
+    font-family: "BahijSans";
+    src: url("../font/BahijTheSansArabic-SemiBold.woff") format("woff");
+    font-weight: SemiBold;
+}
+
+@font-face {
+    font-family: "BahijSans";
+    src: url("../font/BahijTheSansArabic-Bold.woff") format("woff");
+    font-weight:bold;
+}
+
+@font-face {
+    font-family: "BahijSans";
+    src: url("../font/BahijTheSansArabic-Black.woff") format("woff");
+    font-weight: extrabold;
+}
+
+@font-face {
+    font-family: "BahijSans";
+    src: url("../font/BahijTheSansArabic-Plain.woff") format("woff");
+    font-weight: plain;
+}
+
+@font-face {
+    font-family: "BahijJanna";
+    src: url("../font/BahijJanna-Regular.woff") format("woff");
+    font-weight: regular;
+}
+
+@font-face {
+    font-family: "BahijJanna";
+    src: url("../font/BahijJanna-Bold.woff.woff") format("woff");
+    font-weight: bold;
+
+}
+/*-----------------------------*/
+
+:root {
+    --blue: #2597E9;
+    --balck: #24242E;
+    --gray: #4D4D56;
+    --whity: #F8F8FC;
+  }
+  html, body{
+font-family: "BahijSans" ;
+font-weight: plain;
+overflow-x: clip;
+  }
+
+   
+.container {
+    margin-top: 5%;
+}
+/* ----------- */
+
+.nav-link  {
+    color: var(--gray);
+}
+.nav-link:hover {
+    color: var(--blue);
+    font-weight: 700;
+}
+.nav-link.special {
+    border: 1Px solid var(--blue);
+    border-radius: 15px;
+    color: #2597E9;
+    margin-right: 1rem;
+    font-weight: 700;
+ 
+}
+/* ----------- */
+
+.radial {
+    position: absolute;
+    left: -20%;
+    right: 65.69%;
+    top: -0.31%;
+    bottom: 0%;
+    background: radial-gradient(41.76% 41.76% at 50% 50%, #47D7EB -20%, rgba(241, 223, 248, 0) 100%);
+    filter: blur(100px);
+    z-index: 0;
+
+}
+
+.radialR {
+
+    position: absolute;
+    left: 68.26%;
+    right: -30.9%;
+    top: 60%;
+    bottom: -100%;
+    background: radial-gradient(41.76% 41.76% at 50% 50%, #47D7EB -10%, rgba(241, 223, 248, 0) 100%);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.radialD {
+    position: absolute;
+    left: -20%;
+    right: 75%;
+    top: 243%;
+    bottom: -315%;
+    background-image: radial-gradient(41.76% 41.76% at 50% 50%, #47D7EB -20%, rgba(241, 223, 248, 0) 100%);
+    filter: blur(100px);
+    z-index: 0;
+
+}
+
+.radialR2 {
+
+    position: absolute;
+    left: 80.26%;
+    right: -50.9%;
+    top: 350%;
+    bottom: -450%;
+    background: radial-gradient(41.76% 41.76% at 50% 50%, #47D7EB -10%, rgba(241, 223, 248, 0) 100%);
+    filter: blur(100px);
+}
+
+
+/* ------------*/
+
+.presentation h1 span{
+    font-family: "BahijSans" ;
+    font-weight: bold;
+}
+
+.btn1 {
+
+    background-color: #2597E9;
+    border: none;
+    border-radius:15px;
+    color: white;
+ 
+}
+.btn2 {
+    border: none;
+}
+.presentation a:hover {
+    background-color: var(--whity);
+    color: var(--blue);
+}
+/* ----------- */
+.services h3 {
+    font-size: 2.5rem;
+     font-weight: bold;
+
+
+}
+.services .here {
+    font-size: 1.5rem;
+    color: var(--blue);
+}
+.services h5 {
+    font-weight: bold;
+    
+}
+.services p {
+    font-family: "BahijJanna";
+    font-weight: regular;
+}
+.services .card {
+    border-radius: 2rem;
+    background-color: var(--whity);
+}
+
+/* ----------- */
+.universities H4 {
+    color: var(--blue);
+}
+.universities .stats {
+    color: var(--blue);
+}
+/* --------------*/
+.univ .univ-item {
+    border-radius: 1rem;
+    width: 25rem;
+    padding-bottom: 1rem;
+}
+
+/* ----------- */
+.theysaid .btn3{
+    margin-right: 10rem;
+    background-color: var(--blue);
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+}
+.theysaid h4 {
+    color: var(--blue);
+}
+
+
+/* ----------- */
+.articles .card {
+    border-radius: 2rem;
+    width: 20rem;
+
+}
+.articles .card p {
+    color: #4D4D56;
+    font-size:0.8rem;
+
+}
+.articles .card button {
+    color: var(--blue);
+}
+/* -------------*/
+.register .btn4 {
+    background-color: var(--blue);
+    font-weight: light ;
+    font-size: 0.9rem;
+
+}
+.register h1 {
+    font-weight: bold;
+}
+.register p{
+    font-size: 0.9rem;
+    opacity: 70%;
+    margin-bottom: 4rem;
+}
+
+/* ----------- */
+
+.newsletter {
+    padding: 80px 0;
+    background: transparent;
+}
+
+
+.newsletter .content {
+
+max-width: 650px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2;
+
+ }
+
+ .newsletter  .content-tuned{
+ 	    font-size: 0.8rem;
+    margin-bottom: 34px !important;
+
+ }
+
+
+ .newsletter h2 {
+
+    margin-bottom: 6px;
+
+ }
+ .newsletter h6 {
+    color: var(--blue);
+    font-weight: light;
+}
+.newsletter h1 {
+    
+    font-weight: bold;
+}
+
+ .newsletter .form-control {
+    height: 50px;
+  
+    border-radius: 2px 0px 0px 2px;
+}
+
+
+.newsletter .form-control:focus {
+box-shadow: none !important;
+border: 2px solid #243c4f;
+border-color: none;
+
+}
+
+
+.newsletter .btn4 {
+min-height: 50px; 
+
+background: var(--blue);
+font-weight:300;
+color: #F8F8FC;
+
+}
+
+.newsletter .btn4:hover {
+
+background:#E5E5E5;
+color: #24242E;
+
+}
+.newsletter input {
+    border: 1px solid var(--blue);
+    background-color: transparent;
+   
+}
+.newsletter  input,button {
+    border-radius: 3rem;
+}
+
+.newsletter .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(0,123,255,.25) !important;
+}
+
+.newsletter .com{
+	text-decoration: none !important;
+	font-size: 13px;
+	color: #787887;
+    opacity: 80%; 
+}
+
+
+/* ----------- */
+
+
+footer #button-addon1 {
+    color: #ffc371;
+  }
+  
+ footer .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  footer .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+    footer .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  footer .form-control.shadow-0:focus {
+    box-shadow: none;
+  }
+  
+   
+  footer .display-3{
+    font-family: 'Sanchez', serif;
+  }
+  
+  footer p{
+    font-family: 'Tajawal', sans-serif;
+  }
+  
+  footer .lead{
+    font-family: 'Sanchez 200', serif;
+  }
+  footer .bg-blue {
+    background-color: #2597E9;
+
+    
+
+  }
+.bg-blue .text-muted  {
+
+    color: #feffff!important;
+    direction: ltr;
+  }
+  
+
+/*----------------*/
+.about .since {
+    
+    font-weight: bold;
+    margin-bottom: 1.5REM;
+
+}
+.about h2 {
+    
+    font-weight: extralight;
+}
+.about .desc {
+    font-size: 0.9rem ;
+    opacity: 80%;
+    margin-bottom: 3rem;
+}
+/*----------------*/
+
+.accordion-button::after {
+    background-image: url("assets/PlusCircle.svg");
+    transform: scale(0.75) !important;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("assets/minus.svg");
+}
+.accordion {
+    background-color: transparent;
+}
+/*----------------*/
+
+.testimonials .swiper-slide .card:hover{
+    background-color: var(--blue)!important;
+    color: var(--whity)!important;
+
+}
+
