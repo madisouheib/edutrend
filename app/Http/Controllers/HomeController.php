@@ -60,5 +60,19 @@ public function postData(Request $request){
 
 }
 
+public function indexUnivs(){
+
+    $posts = Posts::all();
+    $home = Aboutu::find(1);
+    $univs = Univ::get();
+
+    return view('university')
+    ->with('home',$home)
+    ->with('univs',$univs)
+    ->with('posts',$posts) ; 
+
+
+}
+
 
 }

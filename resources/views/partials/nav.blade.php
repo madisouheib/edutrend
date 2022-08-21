@@ -50,6 +50,9 @@
                 @endif
               
                 @endforeach
+                <li class="nav-item">
+                  <a class="nav-link special" href="#register">ابدء الدراسة الآن</a>
+              </li>
             </ul>
 
        
