@@ -75,8 +75,8 @@ public function indexUnivs(){
 }
 
 public function indexAbout(){
-
-    return view('aboutus') ; 
+    $home = Aboutu::find(1);
+    return view('aboutus')->with('home',$home) ; 
 
 }
 
