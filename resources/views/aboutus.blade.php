@@ -1,8 +1,8 @@
 @extends('app')
 
 @section('content')
-@include('partials.header')
 
+{{ menu('website', 'partials.nav') }}
 
 
     <!-- content -->

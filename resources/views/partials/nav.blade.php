@@ -39,9 +39,9 @@
                   {{ $menu_item->title }}
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="instituts.html">معاهد اللغة</a></li>
-                    <li><a class="dropdown-item" href="universities.html"> الجامعات </a></li>
-                    <li><a class="dropdown-item" href="researches.html">الأبحاث العلمية</a></li>
+                    <li><a class="dropdown-item" href="/univs">معاهد اللغة</a></li>
+                    <li><a class="dropdown-item" href="/univs"> الجامعات </a></li>
+                    <li><a class="dropdown-item" href="/univs">الأبحاث العلمية</a></li>
                   </ul>
                 </li>
                 @else 
