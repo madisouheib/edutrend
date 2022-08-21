@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'HomeController@index')->name('index');
 Route::get('/blogs', 'HomeController@indexBlog')->name('indexBlog');
 Route::get('/univs', 'HomeController@indexUnivs')->name('indexUnivs');
+Route::get('/aboutus', 'HomeController@indexAbout')->name('indexAbout');
 
 
 

@@ -74,5 +74,11 @@ public function indexUnivs(){
 
 }
 
+public function indexAbout(){
+
+    return view('aboutus') ; 
+
+}
+
 
 }
