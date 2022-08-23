@@ -78,5 +78,7 @@
 
   
   
-      <script src="{{ asset('code.js') }}"></script>
+ 
+ <script src="{{ asset('js/code.js') }}"></script>
+
       <script src="{{ asset('js/app.js') }}"></script>

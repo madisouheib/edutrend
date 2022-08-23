@@ -79,6 +79,18 @@ public function indexAbout(){
     return view('aboutus')->with('home',$home) ; 
 
 }
+public function indexPartenariat(){
 
+
+    return view('partenaria'); 
+
+
+}
+
+public function indexResearchs(){
+
+    return view('research'); 
+
+}
 
 }
