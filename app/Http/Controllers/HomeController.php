@@ -8,6 +8,7 @@ use App\Service;
 use App\Univ;
 use App\Posts;
 use App\Application;
+use App\Avi;
 
 class HomeController extends Controller
 {
@@ -76,7 +77,8 @@ public function indexUnivs(){
 
 public function indexAbout(){
     $home = Aboutu::find(1);
-    return view('aboutus')->with('home',$home) ; 
+    return view('aboutus')
+    ->with('home',$home) ; 
 
 }
 public function indexPartenariat(){
@@ -89,7 +91,18 @@ public function indexPartenariat(){
 
 public function indexResearchs(){
 
-    return view('research'); 
+    $avis = Avi::all();
+
+    return view('research')
+    ->with('avis',$avis); 
+
+}
+public function indexInstitus(){
+
+    $avis = Avi::all();
+
+    return view('institus')
+    ->with('avis',$avis); 
 
 }
 
