@@ -9,6 +9,8 @@ use App\Univ;
 use App\Posts;
 use App\Application;
 use App\Avi;
+use App\Institu;
+use App\Question;
 
 class HomeController extends Controller
 {
@@ -66,11 +68,13 @@ public function indexUnivs(){
     $posts = Posts::all();
     $home = Aboutu::find(1);
     $univs = Univ::get();
+    $quesitons = Question::all();
 
     return view('university')
     ->with('home',$home)
     ->with('univs',$univs)
-    ->with('posts',$posts) ; 
+    ->with('posts',$posts)
+    ->with('questions',$quesitons) ; 
 
 
 }
@@ -92,17 +96,22 @@ public function indexPartenariat(){
 public function indexResearchs(){
 
     $avis = Avi::all();
-
+    $quesitons = Question::all();
     return view('research')
-    ->with('avis',$avis); 
+    ->with('avis',$avis)
+    ->with('questions',$quesitons); 
 
 }
 public function indexInstitus(){
 
     $avis = Avi::all();
+    $quesitons = Question::all();
+    $institus = Institu::all();
 
     return view('institus')
-    ->with('avis',$avis); 
+    ->with('avis',$avis)
+    ->with('institus',$institus)
+    ->with('questions',$quesitons); 
 
 }
 

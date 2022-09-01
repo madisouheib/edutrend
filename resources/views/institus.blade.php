@@ -125,43 +125,23 @@
                     <h2 editable="inline" class="mb-4">أشهر معاهد اللغة التي نتعامل معها</h2>
                 </div><!-- /lc-block -->
             </div>
-
+@foreach($institus as $institu)
             <div class="col-md-4">
                 <div class="p-lg-2 px-4 me-4 shadow univ-item">
-                    <div class="lc-block mb-4 px-4 pt-4 "><img alt="" class="img-fluid" src="assets/univ2.png"
+                    <div class="lc-block mb-4 px-4 pt-4 "><img alt="" class="img-fluid" src="{{ Voyager::image( $institu->logo  ) }}"
                             style="height:10vh">
 
-                        <p class="my-3" editable="inline">The scholarship service that was held was very interesting and very lucky I
-                            was able to get this scholarship thanks&nbsp;</p>
-
-                    </div><!-- /lc-block -->
-                </div>
-            </div><!-- /col -->
-
-            <div class="col-md-4">
-                <div class="p-lg-2 px-4  me-4 shadow univ-item ">
-                    <div class="lc-block mb-4 px-4 pt-4"><img alt="" class="img-fluid" src="assets/univ3.png"
-                            style="height:10vh">
-
+                        <p class="my-3" editable="inline">
                        
-                        <p  class="my-3" editable="inline"> A service that makes it very easy for every student who wants to continue
-                            their education to a higher level&nbsp;</p>
+                        {{ $institu->name_inst }}
+                        </p>
 
                     </div><!-- /lc-block -->
                 </div>
             </div><!-- /col -->
-            <div class="col-md-4">
-                <div class="p-lg-2 px-4  me-4 shadow univ-item ">
-                    <div class="lc-block mb-4 px-4 pt-4"><img alt="" class="img-fluid" src="assets/univ1.png"
-                            style="height:10vh">
+@endforeach
 
-                        
-                        <p class="my-3" editable="inline">Every cost allocated to students is very well organized and well divided so
-                            students don't need to bother managing it&nbsp;</p>
 
-                    </div><!-- /lc-block -->
-                </div>
-            </div><!-- /col -->
         </div>
 
 

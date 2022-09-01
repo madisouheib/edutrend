@@ -5,12 +5,11 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 
 
-class Question extends Model
+class Institu extends Model
 {
-    
 
             
-    protected $table = 'questions';
+    protected $table = 'institus';
 
 
     protected $primaryKey = 'id';
@@ -20,8 +19,7 @@ class Question extends Model
 
     protected $fillable = [
 
-        'question ','response'
+        'name_inst','logo'
     ];
     
-
 }
