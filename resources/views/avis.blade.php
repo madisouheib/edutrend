@@ -34,7 +34,7 @@
 									</div>
 									<div class="lc-block px-2 py-2 pt-3 pe-3">
 										<div editable="rich">
-											<p class="h5 mb-0" style="color: inherit"><b>  {{ $avi->title }} </b></p>
+											<p class="h5 mb-0" style="color: inherit"><b>  {{ $avi->name }} </b></p>
 											<p style="color: inherit;"> {{ $avi->created_at }} &nbsp;</p>
 										</div>
 									</div>
