@@ -30,6 +30,9 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+      <!-- slick slider used in univ-->
+      <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
   <!--aos library -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!--HOVER CSS LIBRARY-->
