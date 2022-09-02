@@ -185,9 +185,9 @@
  
 
    
-              <button class="btn btn-indigo btn-rounded btn-md">
+              <a class="btn btn-indigo btn-rounded btn-md" href="{{ url('post/'.$post->slug) }}">
                  اقرأ المزيد
-              </button>
+              </a>
             </div>
           </div>
           <!-- Card -->

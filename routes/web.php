@@ -20,6 +20,7 @@ Route::get('/institus', 'HomeController@indexInstitus')->name('indexInstitus');
 Route::get('/aboutus',  'HomeController@indexAbout')->name('indexAbout');
 Route::get('/partenariat', 'HomeController@indexPartenariat')->name('indexPartenariat');
 Route::get('/researchs', 'HomeController@indexResearchs')->name('indexResearchs');
+Route::get('/article/{slug}', 'HomeController@indexPost')->name('indexPost');
 
 
 

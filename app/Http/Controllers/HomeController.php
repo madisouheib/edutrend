@@ -115,4 +115,15 @@ public function indexInstitus(){
 
 }
 
+public function indexPost($slug){
+
+$post = Posts::where('slug',$slug)->first();
+
+return view('post')
+->with('post',$post);
+
+
+
+}
+
 }
