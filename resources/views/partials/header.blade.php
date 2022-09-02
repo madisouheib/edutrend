@@ -14,7 +14,7 @@
               <div class="ratio ratio-16x9" lc-helper="video-embed">
                 <!-- video js  -->
                 @if(isset($home->vedio_link))
-                <video class="video-js vjs-theme-sea" preload="auto" >
+                <video class="video-js vjs-theme-sea" preload="auto"  poster="{{ Voyager::image( $home->img_link  ) }}">
                   <source src="{{ $home->vedio_link }}" type="video/mp4" />
                 </video>
                 @else 
