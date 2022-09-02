@@ -15,7 +15,7 @@
                 <!-- video js  -->
                 @if(!empty($home->vedio_link))
                 <video class="video-js vjs-theme-sea" preload="auto"  controls style="border-radius: 10px;"  poster="{{ Voyager::image( $home->img_link  ) }}">
-                  <source src="{{ $home->vedio_link }}" type="video/mp4" /> 
+  
                     <source src="{{ $home->vedio_link }}" type="video/ogg" /> 
                 </video>
                 @else 
