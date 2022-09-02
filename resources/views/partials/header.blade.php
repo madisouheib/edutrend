@@ -13,9 +13,10 @@
             <div class="lc-block mb-3 mb-md-0">
               <div class="ratio ratio-16x9" lc-helper="video-embed">
                 <!-- video js  -->
-                @if(isset($home->vedio_link))
-                <video class="video-js vjs-theme-sea" preload="auto"  poster="{{ Voyager::image( $home->img_link  ) }}">
-                  <source src="{{ $home->vedio_link }}" type="video/mp4" />
+                @if(!empty($home->vedio_link))
+                <video class="video-js vjs-theme-sea" preload="auto"  controls style="border-radius: 10px;"  poster="{{ Voyager::image( $home->img_link  ) }}">
+                  <source src="{{ $home->vedio_link }}" type="video/mp4" /> 
+                    <source src="{{ $home->vedio_link }}" type="video/ogg" /> 
                 </video>
                 @else 
                 <img src="{{ Voyager::image( $home->img_link  ) }}"  class="img-responsive" style="border-radius: 10px;">
