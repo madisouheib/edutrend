@@ -17,7 +17,12 @@
                     <br>
                     <span class="since" data-aos="zoom-out-down" data-aos-duration="300">منذ أكثر من 7 سنوات</span>
                 </h2>
+                <div class="tajwal col-8" style="float:none;margin:auto;">
+
+           
                 {!!  $post->body !!}
+
+            </div>
             </div>
         </div>
         <!-- /lc-block -->
