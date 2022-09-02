@@ -1,5 +1,3 @@
-
-
 @extends('app')
 
 @section('content')
@@ -7,6 +5,7 @@
 {{ menu('website', 'partials.nav') }}
     <!-- radial gradient-->
     <div class="radial"></div>
+
     <!-- radial gradient end -->
 
 
@@ -38,9 +37,9 @@
                     <p class="card-text" dir="RTL">
                         {{  substr($post->body, 0,  100)  }}
                     </p>
-                    <button class="btn btn-indigo btn-rounded btn-md">
+                    <a class="btn btn-indigo btn-rounded btn-md" href="{{ url('article/'.$post->slug)}}">
                          اقرأ المزيد
-                    </button>
+                    </a>
                 </div>
             </div>
             <!-- Card -->
