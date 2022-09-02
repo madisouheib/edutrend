@@ -15,7 +15,7 @@
                 <!-- video js  -->
                 @if(!empty($home->vedio_link))
 
-                <iframe class="video-js vjs-theme-sea"  src="{{ $home->vedio_link }}"  title="Iframe Example"></iframe>
+                <iframe class="video-js vjs-theme-sea"  allowpaymentrequest src="{{ $home->vedio_link }}"  title="Iframe Example"></iframe>
            
                 @else 
                 <img src="{{ Voyager::image( $home->img_link  ) }}"  class="img-responsive" style="border-radius: 10px;">
