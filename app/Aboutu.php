@@ -20,7 +20,7 @@ class Aboutu extends Model
 
     protected $fillable = [
 
-        'title','sub_title','img_bg','description','vedio_link'
+        'title','sub_title','img_bg','description','vedio_link','second_vedio','univ_vedio','institu_vedio','research_vedio'
     ];
 
 }

@@ -80,6 +80,7 @@ public function indexUnivs(){
 }
 
 public function indexAbout(){
+
     $home = Aboutu::find(1);
     return view('aboutus')
     ->with('home',$home) ; 
@@ -94,16 +95,17 @@ public function indexPartenariat(){
 }
 
 public function indexResearchs(){
-
+    $home = Aboutu::find(1);
     $avis = Avi::all();
     $quesitons = Question::all();
     return view('research')
     ->with('avis',$avis)
+    ->with('home',$home)
     ->with('questions',$quesitons); 
 
 }
 public function indexInstitus(){
-
+    $home = Aboutu::find(1);
     $avis = Avi::all();
     $quesitons = Question::all();
     $institus = Institu::all();
@@ -111,6 +113,7 @@ public function indexInstitus(){
     return view('institus')
     ->with('avis',$avis)
     ->with('institus',$institus)
+    ->with('home',$home)
     ->with('questions',$quesitons); 
 
 }

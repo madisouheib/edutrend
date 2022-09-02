@@ -113,11 +113,7 @@
           <!-- side image -->
           <div class="col-12 col-md-5 col-lg-6">
             <div class="lc-block">
-              <img
-                alt=""
-                class="img-fluid mx-auto d-block" style=" position: relative; z-index: 2;"
-                src="assets/img3.png"
-              />
+              <iframe class="video-js vjs-theme-sea"  style="border-radius: 10px;"  src="{{ $home->second_vedio }}"  title="Iframe Example"></iframe>
             </div>
             <!-- /lc-block -->
           </div>

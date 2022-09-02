@@ -16,7 +16,7 @@
         <div class="col-md-6">
             <div class="lc-block mb-3 mb-md-0">
                 <div class="ratio ratio-16x9" lc-helper="video-embed">
-                   <img src="assets/abroad1.png" alt="">
+                    <iframe class="video-js vjs-theme-sea"  style="border-radius: 10px;"  src="{{ $home->univ_vedio }}"  title="Iframe Example"></iframe>
                 </div>
             </div>
             <!-- /lc-block -->
