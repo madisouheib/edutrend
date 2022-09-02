@@ -185,7 +185,7 @@
  
 
    
-              <a class="btn btn-indigo btn-rounded btn-md" href="{{ url('post/'.$post->slug) }}">
+              <a class="btn btn-indigo btn-rounded btn-md" href="{{ url('article/'.$post->slug) }}">
                  اقرأ المزيد
               </a>
             </div>
