@@ -17,7 +17,7 @@
                     <br>
                     <span class="since" data-aos="zoom-out-down" data-aos-duration="300">منذ أكثر من 7 سنوات</span>
                 </h2>
-        {{  $post->body }}
+                {!!  $post->body !!}
             </div>
         </div>
         <!-- /lc-block -->
