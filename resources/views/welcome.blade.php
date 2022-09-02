@@ -182,10 +182,9 @@
               <!-- Title -->
               <h4 class="card-title" dir="RTL">{{ $post->title }}</h4>
               <!-- Text -->
-              @php 
-
-        substr($post->body, 0, 120)
-          @endphp
+ 
+              {{      htmlspecialchars(substr($post->body, 0, 120)) }}
+   
               <button class="btn btn-indigo btn-rounded btn-md">
                  اقرأ المزيد
               </button>
