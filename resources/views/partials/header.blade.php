@@ -14,10 +14,9 @@
               <div class="ratio ratio-16x9" lc-helper="video-embed">
                 <!-- video js  -->
                 @if(!empty($home->vedio_link))
-                <video class="video-js vjs-theme-sea" preload="auto"  controls style="border-radius: 10px;"  poster="{{ Voyager::image( $home->img_link  ) }}">
-  
-                    <source src="{{ $home->vedio_link }}" type="video/ogg" /> 
-                </video>
+
+                <iframe class="video-js vjs-theme-sea"  src="{{ $home->vedio_link }}"  title="Iframe Example"></iframe>
+           
                 @else 
                 <img src="{{ Voyager::image( $home->img_link  ) }}"  class="img-responsive" style="border-radius: 10px;">
                 @endif
