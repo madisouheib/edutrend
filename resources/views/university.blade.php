@@ -32,9 +32,7 @@
                             معاهد اللغة</span>
                     </h1>
                     <p class="text-secondary col-lg-9">
-                        تعلم اللغة الإنجليزية فى بريطانيا موطن اللغة الإنجليزية.
-                         هناك العديد من الأماكن الساحرة للدراسة. نفتخر بتقديم أفضل برامج تعلم اللغة الإنجليزية
-                          في بريطانيا و لذلك يمكنك الاعتماد علينا لقضاء أفضل رحلة إلى هناك.
+                        لا تشغل نفسك بتحمل متاعب عمليات التسجيل في الجامعات، ففريق عملنا المختص مهمته تحصيل القبول لك في أفضل الجامعات بسرعة وسهولة مجانًا بدون أي رسوم تقديم.
                     </p>
                 </div>
                 <div class="lc-block d-grid gap-2 d-md-flex justify-content-md-start">
@@ -58,7 +56,9 @@
     <div class="container">
         <!-- title  -->
         <div class="lc-block text-center">
-            <span editable="inline" class="mt-2 d-block here">اختر من 7066 دورات في 362 معاهد اللغة الإنجليزية في بريطانيا</span>
+            <span editable="inline" class="mt-2 d-block here">
+                أكثر من 100 جامعة تختار منها تخصصك الدراسة
+            </span>
             <h3 editable="inline" class="display-2 mb-4">
                 <b>تعلم اللغة صار أسهل</b>
             </h3>
@@ -73,7 +73,9 @@
                         <div class="my-3">
                             <img src="assets/icon7.svg" alt="wrapkit" />
                         </div>
-                        <h5 class="font-weight-mediu  hvr-float">بدء الدراسة</h5>
+                        <h5 class="font-weight-mediu  hvr-float">
+                            اختيار التخصص
+                        </h5>
                         <br>
                         <p class="mt-3 pb-3 hvr-float">
                             نجيب على أهم اسئلتكم حتى تختار التخصص المناسب
@@ -88,7 +90,9 @@
                         <div class="my-3">
                             <img src="assets/icon6.svg" alt="wrapkit" />
                         </div>
-                        <h5 class="font-weight-medium  hvr-float">اجراءات التسجيل</h5>
+                        <h5 class="font-weight-medium  hvr-float">
+                            اجراءات التسجيل
+                        </h5>
                         <br>
                         <p class="mt-3 pb-3  hvr-float">
                             نجيب على أهم اسئلتكم حتى تختار التخصص المناسب
@@ -103,7 +107,9 @@
                         <div class="my-3">
                             <img src="assets/icon5.svg" alt="wrapkit" />
                         </div>
-                        <h5 class="font-weight-medium  hvr-float">اختيار البرنامج</h5>
+                        <h5 class="font-weight-medium  hvr-float">
+                            اختيار البرنامج
+                        </h5>
                         <br>
                         <p class="mt-3 pb-3  hvr-float">
                             نجيب على أهم اسئلتكم حتى تختار التخصص المناسب
