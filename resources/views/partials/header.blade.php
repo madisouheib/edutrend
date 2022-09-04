@@ -34,7 +34,7 @@
                   <span class="second-part"> {{  $home->sub_title  }} </span>
                 </h1>
                 <p class="text-secondary">
-              {{ $home->descrip }}
+              {{ $home->description }}
                   <br>
                 </p>
               </div>
