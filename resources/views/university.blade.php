@@ -36,7 +36,7 @@
                     </p>
                 </div>
                 <div class="lc-block d-grid gap-2 d-md-flex justify-content-md-start">
-                    <a class="btn px-4 py-3 me-md-2 btn1" href="#" role="button" style="z-index: 200;">ابحث عن البرنامج المناسب لعمرك</a>
+                    <a class="btn px-4 py-3 me-md-2 btn1" href="#" role="button" style="z-index: 200;">  ابحث عن الجامعة ليس البرنامج </a>
                     <a class="btn btn-outline-secondary px-4 btn2 pt-2" href="#" role="button">لديك سؤال أو
                         استفسار؟<br />
                         احجز استشارة مجانية</a>
