@@ -33,7 +33,7 @@
                   {{ $home->title  }}<br />
                   <span class="second-part"> {{  $home->sub_title  }} </span>
                 </h1>
-                <p class="text-secondary" style="word-break: break-all">
+                <p class="text-secondary" style="word-break: break-all;width : 60%;">
               {{ $home->description }}
                   <br>
                 </p>
