@@ -34,9 +34,7 @@
                     <!-- Title -->
                     <h4 class="card-title" dir="RTL">{{ $post->title }}</h4>
                     <!-- Text -->
-                    <p class="card-text" dir="RTL">
-                        {{  substr($post->body, 0,  100)  }}
-                    </p>
+              
                     <a class="btn btn-indigo btn-rounded btn-md" href="{{ url('article/'.$post->slug)}}">
                          اقرأ المزيد
                     </a>
