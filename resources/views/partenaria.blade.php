@@ -117,9 +117,9 @@
         
         -->  
         <div class="row align-items-center  ">
-<div class="col-md-4 col-lg-4 col-xs-12 ">
+<div class="col-md-4 col-lg-4 col-xs-12 " style="margin-right:auto;margin-left:auto;" >
     <div class="ratio ratio-16x9" lc-helper="video-embed">
-        <iframe class="video-js vjs-theme-sea"  style="border-radius: 10px;heigth:300px;width:400px;"  src="{{ $home->partenariat_vedio  }}"  title="Iframe Example"></iframe>
+        <iframe class="video-js vjs-theme-sea"  style="border-radius: 10px;heigth:380px;width:450px;"  src="{{ $home->partenariat_vedio  }}"  title="Iframe Example"></iframe>
         
 </div>
 
