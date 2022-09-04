@@ -114,9 +114,10 @@
         <h2 class="text-center">شاهد طريقة التسجيل</h2>
          <!-- video js 
         ADD VIDEO HERE
-        -->
+        -->    <div class="ratio ratio-16x9" lc-helper="video-embed">
+        <iframe class="video-js vjs-theme-sea"  style="border-radius: 10px;"  src="{{ $home->partenariat_vedio  }}"  title="Iframe Example"></iframe>
         
-
+</div>
     </section>
     <!------------------
       section 

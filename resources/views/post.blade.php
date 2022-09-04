@@ -7,7 +7,7 @@
 
     <!-- content -->
     <!-- bg image -->
-    <img class="my-4 img-fluid" src="{{ Voyager::image( $post->image  ) }}" alt="" style="height:50%;">
+    <img class="my-4 img-fluid" src="{{ Voyager::image( $post->image  ) }}" alt="" style="margin-left:auto;margin-right:auto;display:block;">
     <!-- description -->
     <div class="col-12 col-md-12 col-lg-12 text-center about" dir="rtl">
         <div class="lc-block mb-4 mt-4">

@@ -88,8 +88,8 @@ public function indexAbout(){
 }
 public function indexPartenariat(){
 
-
-    return view('partenaria'); 
+    $home = Aboutu::find(1);
+    return view('partenaria')->with('home',$home); 
 
 
 }
