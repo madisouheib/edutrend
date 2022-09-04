@@ -11,7 +11,7 @@
   
   
   @foreach($univs as $univ)
-          <div class="col-md-4 col-lg-4 col-xs-12">
+          <div class="col-md-3 col-lg-3 col-xs-12">
             <div class="p-lg-2 px-4 me-4 shadow univ-item  carousel-cell ">
               <div class="lc-block mb-4 px-4 pt-4 "><img alt="" class="img-fluid" src="{{ Voyager::image( $univ->logo_univ  ) }}" style="height:10vh">
       
